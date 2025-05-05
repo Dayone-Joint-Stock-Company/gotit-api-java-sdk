@@ -48,7 +48,7 @@ import com.gotit.sdk.JSON;
 /**
  * REQUESTCREATEVOUCHERLINKV
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-04-25T09:18:53.858375972Z[Etc/UTC]", comments = "Generator version: 7.12.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-05-05T08:59:19.735220826Z[Etc/UTC]", comments = "Generator version: 7.12.0")
 public class REQUESTCREATEVOUCHERLINKV {
   public static final String SERIALIZED_NAME_PRODUCT_ID = "productId";
   @SerializedName(SERIALIZED_NAME_PRODUCT_ID)

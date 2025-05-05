@@ -170,3 +170,6 @@ src/main/java/com/gotit/sdk/model/VOUCHERV.java
 src/main/java/com/gotit/sdk/model/VOUCHERVRESPONSE.java
 src/main/java/com/gotit/sdk/model/VOUCHERVSCHEMA.java
 src/main/java/com/gotit/sdk/model/VOUCHERVSCHEMAProduct.java
+src/test/java/com/gotit/sdk/model/PAGINGSCHEMATest.java
+src/test/java/com/gotit/sdk/model/PRODUCTSALLDETAILTest.java
+src/test/java/com/gotit/sdk/model/VOUCHERVSCHEMAProductTest.java
