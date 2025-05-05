@@ -20,15 +20,13 @@ import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
 import com.gotit.sdk.model.STORESSCHEMA;
 import com.gotit.sdk.model.USAGEMETHODSCHEMA;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import org.openapitools.jackson.nullable.JsonNullable;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
-
 
 /**
  * Model tests for BRANDDETAIL
@@ -74,6 +72,46 @@ public class BRANDDETAILTest {
     @Test
     public void brandLogoTest() {
         // TODO: test brandLogo
+    }
+
+    /**
+     * Test the property 'slug'
+     */
+    @Test
+    public void slugTest() {
+        // TODO: test slug
+    }
+
+    /**
+     * Test the property 'shortDesc'
+     */
+    @Test
+    public void shortDescTest() {
+        // TODO: test shortDesc
+    }
+
+    /**
+     * Test the property 'description'
+     */
+    @Test
+    public void descriptionTest() {
+        // TODO: test description
+    }
+
+    /**
+     * Test the property 'categoryID'
+     */
+    @Test
+    public void categoryIDTest() {
+        // TODO: test categoryID
+    }
+
+    /**
+     * Test the property 'order'
+     */
+    @Test
+    public void orderTest() {
+        // TODO: test order
     }
 
     /**

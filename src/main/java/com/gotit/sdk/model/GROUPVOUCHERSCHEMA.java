@@ -49,7 +49,7 @@ import com.gotit.sdk.JSON;
 /**
  * GROUPVOUCHERSCHEMA
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-05-05T08:59:19.735220826Z[Etc/UTC]", comments = "Generator version: 7.12.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-05-05T09:04:05.866297444Z[Etc/UTC]", comments = "Generator version: 7.12.0")
 public class GROUPVOUCHERSCHEMA {
   public static final String SERIALIZED_NAME_VOUCHER_LINK = "voucherLink";
   @SerializedName(SERIALIZED_NAME_VOUCHER_LINK)

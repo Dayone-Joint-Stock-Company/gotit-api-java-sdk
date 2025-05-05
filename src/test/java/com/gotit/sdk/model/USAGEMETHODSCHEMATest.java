@@ -18,13 +18,11 @@ import com.google.gson.annotations.JsonAdapter;
 import com.google.gson.annotations.SerializedName;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
 import java.io.IOException;
+import java.util.Arrays;
 import org.openapitools.jackson.nullable.JsonNullable;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
-
 
 /**
  * Model tests for USAGEMETHODSCHEMA
@@ -70,6 +68,30 @@ public class USAGEMETHODSCHEMATest {
     @Test
     public void orderTest() {
         // TODO: test order
+    }
+
+    /**
+     * Test the property 'link'
+     */
+    @Test
+    public void linkTest() {
+        // TODO: test link
+    }
+
+    /**
+     * Test the property 'phone1'
+     */
+    @Test
+    public void phone1Test() {
+        // TODO: test phone1
+    }
+
+    /**
+     * Test the property 'phone2'
+     */
+    @Test
+    public void phone2Test() {
+        // TODO: test phone2
     }
 
 }

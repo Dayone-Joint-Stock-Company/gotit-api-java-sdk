@@ -21,14 +21,12 @@ import com.google.gson.stream.JsonWriter;
 import com.gotit.sdk.model.BRANDREEDEMSCHEMA;
 import com.gotit.sdk.model.PRODUCTPRICESCHEMA;
 import com.gotit.sdk.model.STORESSCHEMA;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
-
 
 /**
  * Model tests for PRODUCTDETAIL

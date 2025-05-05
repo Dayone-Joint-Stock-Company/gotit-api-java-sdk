@@ -18,14 +18,12 @@ import com.google.gson.annotations.JsonAdapter;
 import com.google.gson.annotations.SerializedName;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
-import com.gotit.sdk.model.VOUCHERVSCHEMAVouchers;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.gotit.sdk.model.VOUCHERVSCHEMAProduct;
 import java.io.IOException;
+import java.util.Arrays;
 import org.openapitools.jackson.nullable.JsonNullable;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
-
 
 /**
  * Model tests for VOUCHERVSCHEMA
@@ -114,11 +112,11 @@ public class VOUCHERVSCHEMATest {
     }
 
     /**
-     * Test the property 'vouchers'
+     * Test the property 'product'
      */
     @Test
-    public void vouchersTest() {
-        // TODO: test vouchers
+    public void productTest() {
+        // TODO: test product
     }
 
 }

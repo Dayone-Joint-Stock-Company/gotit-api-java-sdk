@@ -2,7 +2,7 @@
 
 Sample API
 - API version: 4.0.0
-  - Build date: 2025-05-05T08:59:19.735220826Z[Etc/UTC]
+  - Build date: 2025-05-05T09:04:05.866297444Z[Etc/UTC]
   - Generator version: 7.12.0
 
 Technical document APIs for API Version 4.

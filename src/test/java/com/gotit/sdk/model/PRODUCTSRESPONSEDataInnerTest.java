@@ -18,15 +18,14 @@ import com.google.gson.annotations.JsonAdapter;
 import com.google.gson.annotations.SerializedName;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
-import com.gotit.sdk.model.PRODUCTSDETAIL;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.gotit.sdk.model.PAGINGSCHEMA;
+import com.gotit.sdk.model.PRODUCTSALLDETAIL;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
-
 
 /**
  * Model tests for PRODUCTSRESPONSEDataInner
@@ -48,6 +47,14 @@ public class PRODUCTSRESPONSEDataInnerTest {
     @Test
     public void productListTest() {
         // TODO: test productList
+    }
+
+    /**
+     * Test the property 'pagination'
+     */
+    @Test
+    public void paginationTest() {
+        // TODO: test pagination
     }
 
 }
