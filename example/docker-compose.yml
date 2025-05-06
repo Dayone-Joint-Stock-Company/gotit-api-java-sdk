@@ -1,7 +1,7 @@
 version: '3.8'
 
 services:
-  gotit-api-example:
+  gotit-api-java-sdk-example:
     build:
       context: .
       dockerfile: Dockerfile
