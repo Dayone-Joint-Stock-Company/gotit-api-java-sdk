@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  gotit-api-java-sdk-example:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5001:5001"
+    environment:
+      - JAVA_OPTS=-Xmx512m
+      - GOTIT_API_BASE_PATH=https://api-biz-stg.gotit.vn
+    restart: unless-stopped
+    volumes:
+      - ~/.m2:/root/.m2 
